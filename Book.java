@@ -64,4 +64,13 @@ class Book
     {
         return pages;
     }
+    
+    /**
+     * Print details method prints details of the book:
+     * title, author, and pages
+     */
+    public void printDetails()
+    {
+        System.out.println("Title: " + title + ", Author: " + author + ", Pages: " + pages);
+    }
 }
