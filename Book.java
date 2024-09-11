@@ -21,6 +21,7 @@ class Book
     {
         author = bookAuthor;
         title = bookTitle;
+        pages = bookPages;
     }
 
     // Add the methods here ...
@@ -54,5 +55,13 @@ class Book
     public void printTitle()
     {
         System.out.println("Book title: " + title);
+    }
+    
+    /**
+     * Get pages method returns number of pages
+     */
+    public int getPages()
+    {
+        return pages;
     }
 }
