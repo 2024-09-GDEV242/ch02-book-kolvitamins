@@ -33,6 +33,7 @@ class Book
     // Add the methods here ...
     /**
      * Get author method returns the name of the author
+     * For exercise 2.83
      */
     public String getAuthor()
     {
@@ -41,6 +42,7 @@ class Book
     
     /**
      * Get title method returns the title of the book
+     * For exercise 2.83
      */
     public String getTitle()
     {
@@ -49,6 +51,7 @@ class Book
     
     /**
      * Print author method prints the name of the author
+     * For exercise 2.84
      */
     public void printAuthor()
     {
@@ -57,6 +60,7 @@ class Book
     
     /**
      * Print title method prints the book title
+     * For exercise 2.84
      */
     public void printTitle()
     {
@@ -65,6 +69,7 @@ class Book
     
     /**
      * Get pages method returns number of pages
+     * For exercise 2.85
      */
     public int getPages()
     {
@@ -73,6 +78,7 @@ class Book
     
         /**
      * Set ref number assigns a value to the refNumber field
+     * For exercise 2.88 & 2.90
      */
     public void setRefNumber(String ref)
     {
@@ -89,6 +95,7 @@ class Book
     /**
      * Get ref number returns the value assigned to the
      * refNumber field
+     * For exercise 2.88
      */
     
     public String getRefNumber()
@@ -99,6 +106,7 @@ class Book
     /**
      * Print details method prints details of the book:
      * title, author, and pages
+     * For exercise 2.87, 2.89, & 2.91
      */
     public void printDetails()
     {
@@ -120,6 +128,7 @@ class Book
     
     /**
      * the borrowed mutator tracks the amount of times the book is borrowed
+     * For exercise 2.91
      */
     
     public void borrowed()
@@ -129,6 +138,7 @@ class Book
     
     /**
      * The get borrowed accessor returns the borrowed field
+     * For exercise 2.91
      */
     
     public int getBorrowed()
@@ -138,6 +148,7 @@ class Book
     
     /**
      * The is course text method returns the courseText field
+     * For exercise 2.92
      */
     
     public boolean isCourseText()
