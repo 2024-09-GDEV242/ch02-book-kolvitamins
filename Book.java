@@ -12,16 +12,19 @@ class Book
     private String author;
     private String title;
     private int pages;
+    private String refNumber;
 
     /**
      * Set the author and title fields when this object
      * is constructed.
      */
-    public Book(String bookAuthor, String bookTitle, int bookPages)
+    public Book(String bookAuthor, String bookTitle,
+    int bookPages, String refNumber)
     {
         author = bookAuthor;
         title = bookTitle;
         pages = bookPages;
+        refNumber = "";
     }
 
     // Add the methods here ...
@@ -71,6 +74,25 @@ class Book
      */
     public void printDetails()
     {
-        System.out.println("Title: " + title + ", Author: " + author + ", Pages: " + pages);
+        System.out.println("Title: " + title + ", Author: "
+        + author + ", Pages: " + pages);
+    }
+    
+    /**
+     * Set ref number assigns a value to the refNumber field
+     */
+    public void setRefNumber(String ref)
+    {
+        refNumber = ref;
+    }
+    
+    /**
+     * Get ref number returns the value assigned to the
+     * refNumber field
+     */
+    
+    public String getRefNumber()
+    {
+        return refNumber;
     }
 }
