@@ -13,6 +13,7 @@ class Book
     private String title;
     private int pages;
     public String refNumber;
+    public int borrowed;
 
     /**
      * Set the author and title fields when this object
@@ -110,6 +111,28 @@ class Book
         {
                 System.out.println("ZZZ");
         }
+        
+        System.out.println(title + " has been borrowed " +
+        borrowed + " times");
     }
+    
+    /**
+     * the borrowed mutator tracks the amount of times the book is borrowed
+     */
+    
+    public void borrowed()
+    {
+        borrowed = borrowed + 1;
+    }
+    
+    /**
+     * The get borrowed accessor returns the borrowed field
+     */
+    
+    public int getBorrowed()
+    {
+        return borrowed;
+    }
+    
     
 }
